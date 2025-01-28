@@ -4,12 +4,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "ls -la node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "json-server": "^1.0.0-beta.3"
